@@ -41,6 +41,38 @@ This command starts your Python application, and you can access it through the e
 Also pushed the Docker Image to DockerHUB . you can pull the iamge with this link : docker pull ayan0209/assignment_ls:latest
 
 
+---> Step 3: Cloud Deployment 
+
+Overview
+In this project, we have successfully deployed our Machine Learning (ML) web application on the Google Cloud Platform (GCP). GCP provides a robust and scalable environment for hosting web applications, including those with machine learning components.
+
+Deployment Steps
+Here are the high-level steps involved in deploying our ML web app on GCP:
+
+Setup GCP Account: Ensure you have a Google Cloud Platform account set up. GCP offers various services and products for cloud deployment.
+
+Application Containerization: We containerized our ML web application using Docker. This allowed us to package our application and its dependencies in a consistent and portable manner.
+
+Google Cloud Build: Google Cloud Build was utilized to build and package our Docker container. This service automates the build and test phases of your release process.
+
+Google Cloud Run: Our Docker container was deployed to Google Cloud Run, a serverless platform for containerized applications. Cloud Run automatically manages the deployment, scaling, and load balancing.
+
+Domain Configuration: We configured a custom domain for our application to make it accessible through a user-friendly URL. This can be done through Google Domains or other domain registrars.
+
+SSL Certificate: SSL/TLS certificates were set up to secure the application. GCP offers built-in SSL certificate management.
+
+Monitoring and Logging: GCP provides tools like Stackdriver for monitoring and logging. We can monitor application performance, track errors, and view logs.
+
+Scalability: Google Cloud Run automatically scales our application based on incoming traffic, ensuring it can handle varying workloads.
+
+Accessing the Deployed Application
+Our ML web application is now accessible through the following URL: https://assignment-ls-ewqsk3zswa-df.a.run.app/  . Users can interact with the application, perform predictions, and enjoy the seamless experience.
+
+
+-->Step 4: Automated Testing
+
+
+
 ---> Step 5: Monitoring and Logging(In NOtebook )
 
 MLflow Integration
