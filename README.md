@@ -36,7 +36,9 @@ The Docker image is configured to run the application using the following comman
 bash
 Copy code
 CMD python app.py
-This command starts your Python application, and you can access it through the exposed port (in this case, port 8080) as specified when running the container.
+This command starts your Python application, and you can access it through the exposed port (in this case, port 5000) as specified when running the container.
+
+Also pushed the Docker Image to DockerHUB . you can pull the iamge with this link : docker pull ayan0209/assignment_ls:latest
 
 
 ---> Step 5: Monitoring and Logging(In NOtebook )
