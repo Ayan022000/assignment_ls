@@ -71,6 +71,10 @@ Our ML web application is now accessible through the following URL: https://assi
 
 -->Step 4: Automated Testing
 
+Automated Testing
+Unit Tests
+We have implemented simple unit tests for our machine learning code to ensure the correctness and reliability of our regression model. These tests cover key components of our codebase, including data preprocessing, model training, and prediction functionality. The unit tests are located in the NOTEBOOK directory of our project.
+
 
 
 ---> Step 5: Monitoring and Logging(In NOtebook )
